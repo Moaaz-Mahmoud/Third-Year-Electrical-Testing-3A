@@ -1,0 +1,19 @@
+module bitOr(
+  input[3:0] x, y,
+  output[3:0] out
+);
+  assign out = x | y;
+endmodule
+
+module bitAnd(
+  input[3:0] x, y,
+  output[3:0] out
+);
+  assign out = x & y;
+endmodule
+
+
+
+
+
+

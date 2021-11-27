@@ -1,0 +1,22 @@
+// Code your design here
+
+module halfAdder(x, y, sum, carry)
+  input x, y;
+  output sum, carry;
+  
+  xor(sum, x, y);
+  and(carry, x, y);
+endmodule;
+
+module fullAdder(x, y, cin, sum, cout)
+  wire 20, w1, w2;
+  
+  input x, y, cin;
+  output sum, cout;
+  
+  xnor(w0, x, y);
+  and(w1, x, y);
+  xnor(sum, w0, cin);
+  and(w2, w0, cin);
+  or(cout, w2, w1);
+endmodule
