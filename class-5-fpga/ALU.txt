@@ -56,7 +56,7 @@ module alu(
     sel[0] == 0 & sel[1] == 0 ? outAnd :
     sel[0] == 0 & sel[1] == 1 ? outOr  :
     sel[0] == 1 & sel[1] == 0 ? outAdd :
-    							outSub
+    outSub
   );
 endmodule
 
