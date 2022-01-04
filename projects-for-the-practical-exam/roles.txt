@@ -1,0 +1,74 @@
+Data Analysis
+
+Moaaz
+2→3
+22→23
+27→
+
+Marko
+4→8
+17→21
+
+AbdElRahman
+9→16
+24→26
+
+______________________________
+Machine Learning
+
+Moaaz Mahmoud
+2→3
+10→13
+17→20
+Decision Tree
+
+AbdElRahman
+11→16
+SVM
+
+Marko
+4→9
+22
+Gaussian NB
+
+
+______________________________
+FPGA
+
+Moaaz
+8
+
+Marko
+5→6
+
+AbdElRahman
+7
+
+Shawki
+3→4
+
+Ziad
+2
+
+
+______________________________
+Data Structures
+
+Moaaz
+8→
+
+Ziad
+5, 7
+
+AbdElRahman
+10→
+
+Shawki
+2, 3, 6
+
+
+
+
+
+
+
