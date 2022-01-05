@@ -12,7 +12,6 @@ Marko
 AbdElRahman
 9→16
 24→26
-
 ______________________________
 Machine Learning
 
@@ -20,11 +19,11 @@ Moaaz Mahmoud
 2→3
 10→13
 17→20
-Decision Tree
+SVM
 
 AbdElRahman
 11→16
-SVM
+Decision Tree
 
 Marko
 4→9
@@ -65,7 +64,6 @@ AbdElRahman
 
 Shawki
 2, 3, 6
-
 
 
 
