@@ -1,0 +1,91 @@
+
+
+
+
+
+FPGA_________________________________________________
+FPGA Ch1
+Classification of Device Technologies
+	• Discrete logic
+	• Programmable devices (FPGAs)
+	• ASIC (Application specific IC)
+System Representation
+	• Behavioral level
+	• Structural level
+	• Physical level
+System Abstraction Levels
+	• Transistor level
+	• Gate level
+	• Register transfer level (RTL)
+	• Processor Level
+FPGA Definition
+	An array of gates in addition to some other elements such as memory 
+	controllers and communication interfaces that can be programmed and
+	reconfigured more than once.
+FPGA Applications
+	Cryptography, ASIC prototyping, Industrial, medical and Scientific 
+	Instruments, Audio/Video and Image processing and broadcasting, 
+	high-performance computing, AI, and Deep Learning, Military and 
+	Space applications, Networking, packet processing, and other 
+	communications
+FPGA Design Flow
+	• Architecture design	  : involves the analysis of the project requirements, problem decomposition
+	• HDL design entry	  : using HDLs to describe the design
+	• Test environment design : writing test environments and behavioral models to ensure the correctness of the HDL description
+	• Behavioral simulation	  : comparing the HDL outputs and the behavioral model to ensure the correctness of the HDL description
+	• Synthesis		  : involves the conversion of an HDL description to a netlist
+	• Implementation	  : a synthesizer-generated netlist is mapped onto particular device's internal structure
+	• Timing analysis	  : to ensure the implemented design satisfies the timing constraints
+
+FPGA Ch3
+Unfamiliar Verilog Operators
+	• Exponentiation: **
+	• Concatenation: {}{}	{2'b01}{2'b10} yields 4'b0110
+	• Replication: {{}}	{3{2'b01}} yields 6'b010101
+Coding Styles
+	• Structural modeling: gate level → `and(x, a, b);`
+	• Dataflow modeling: C-style assignments → `assign z = x && !y;`
+	• Behavioral modeling: initial and always blocks → 
+	  ```
+	  always @ (x or y)
+	    begin
+	      z=0;
+	      if (x ==y)
+	      z=1;
+	    end
+	  ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
