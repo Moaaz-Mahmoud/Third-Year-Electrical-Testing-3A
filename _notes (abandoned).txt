@@ -5,7 +5,9 @@ Python_________________________________________________
 
 
 Machine Learning_________________________________________________
-
+Definitions:
+	• Artificial Intelligence: A branch of Computer Science
+	• Machine Learning	 : A branch of
 
 FPGA_________________________________________________
 FPGA Ch1

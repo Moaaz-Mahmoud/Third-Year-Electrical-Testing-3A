@@ -1,0 +1,6 @@
+Q1)
+A. Explain how linear regression works.
+B. Redo linear regression but this time fit any curve f(x)
+Q2)
+A. وديني عند ماما
+B. 
